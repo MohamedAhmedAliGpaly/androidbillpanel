@@ -3,7 +3,7 @@
 	define ("DB_HOST", "localhost"); //Databse Host.
 	define ("DB_USER", "root"); //Databse User.
 	define ("DB_PASS", "147258369/////"); //database password.
-	define ("DB_NAME", "mohamedgpalysales"); //database Name.
+	define ("DB_NAME", "lifebills"); //database Name.
 
 $db = new mysqli(DB_HOST, DB_USER, DB_PASS, DB_NAME);
 if($db->connect_errno > 0){
